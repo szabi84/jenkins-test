@@ -8,8 +8,7 @@
     "build": "npm run eslint && rollup -c",
     "eslint": "eslint index.js src/*.js",
     "eslint-fix": "eslint --fix index.js src/*.js",
-    "test": "mocha test/unittest/**/*spec.js",
-    "test-nightly": "mocha test/nightly/**/*spec.js"
+    "test": "mocha test/*spec.js"
   },
   "author": "Botium GmbH",
   "license": "MIT",
@@ -19,6 +18,7 @@
     "@babel/node": "^7.6.2",
     "@babel/plugin-transform-runtime": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
+    "chai": "^4.3.7",
     "eslint": "^6.5.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
@@ -27,6 +27,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "rollup": "^1.21.2",
+    "mocha": "^10.2.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
