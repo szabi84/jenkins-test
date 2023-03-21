@@ -1,2 +1,1 @@
-console.log('test9')
-amlaa
+console.log('test10')
