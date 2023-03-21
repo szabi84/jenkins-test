@@ -3,6 +3,6 @@ const assert = require('chai').assert
 describe('sayhello', function () {
   it('test', async function () {
     const test = 'test'
-    assert.equal('test2', test)
+    assert.equal('test4', test)
   })
 })
